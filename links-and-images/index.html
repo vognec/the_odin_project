@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and Images</title>
+</head>
+<body>
+    <h1>HomePage</h1>
+    <!--    target attribute specifies where the linked resource will be opened. Default is
+                _self which opens in current tab
+            rel attribute describes relationship between linked document and current page.
+                noopener prevents opened link from gaining access to current page
+                noreferrer pevents opened link from knowing which webpage links to it
+                (Done for security reasons)
+        -->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">Click Me (Absolute Path)</a>
+
+    <br>
+    <br>
+    <br>
+    <a href="./pages/about.html">About Page (relative path)</a>
+
+    <br>
+    <br>
+    <br>
+    <a href="./pages/images.html">Images Page (relative path)</a>
+
+    <br>
+    <br>
+    <br>
+    <img src="./images/dog.jpg" alt="dog" height="310" width="310">
+
+    
+</body>
+</html>
