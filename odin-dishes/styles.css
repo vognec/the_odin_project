@@ -1,7 +1,11 @@
-body {
+body,
+.boundary {
     background: rgb(125, 125, 125);
 }
 
+.boundary {
+    height: 150px;
+}
 .card {
     background: #ADD8E6;
     width: 700px;
@@ -20,4 +24,11 @@ body {
     text-align: center;
     color: black;
     font-size: 24px;
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
